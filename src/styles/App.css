@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin:  0;
+    font-family: sans-serif;
+    background-color: rgb(103, 21, 179) ;
+}
+
+.app{
+    position: relative;
+    padding: 1.5rem;
+    background-color:rgb(103, 21, 179) ;
+
+}
+.movies{
+    display : flex;
+    flex-wrap: wrap;
+}
+.searchNav {
+    display:flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.title{
+    padding-right: 3rem;
+ 
+   
+}
+
+.loginContainer {
+    position: absolute;
+    top: 20px;
+    right: 20%;
+    transform: translateX(50%);
+    display: flex;
+    gap: 50px;
+  }
+  
+  .loginButton {
+    width: 70px;
+    height: 30px;
+    border-radius: 20%;
+    background-color: rgb(182, 149, 192);
+    
+
+    /* Agrega otras propiedades de estilo según tus necesidades */
+  }
+  .loginButton span {
+    /* Estilos del texto dentro del botón */
+    
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: rgb(182, 149, 192)
+    /* Agrega otras propiedades de estilo según tus necesidades */
+  }
+  
+  button.registerButton {
+    width: 99px;
+    height: 30px;
+    border-radius: 20%;
+    background-color: rgb(182, 149, 192);
+  }
+
+  .registerButton span {
+    /* Estilos del texto dentro del botón */
+    
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: rgb(182, 149, 192)
+    /* Agrega otras propiedades de estilo según tus necesidades */
+  }
